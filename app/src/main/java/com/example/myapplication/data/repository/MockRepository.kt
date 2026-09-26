@@ -21,17 +21,17 @@ object MockRepository {
         return StudentProfile(
             firstName = "Alex",
             lastName = "Kowalczyk",
-            albumNumber = "12345",
-            email = "12345@student.merito.pl",
+            albumNumber = "2137",
+            email = "2137@student.merito.pl",
             fieldOfStudy = "Informatyka",
-            specialization = "Aplikacje Mobilne i Chmurowe",
+            specialization = "Generowanie kodu i nie rozumienie go",
             yearOfStudy = 2,
             semester = 4,
             status = "Student aktywny",
             studyMode = "Stacjonarne (Dzienne)",
             degree = "I stopnia (Inżynierskie)",
             faculty = "Wydział Finansów i Informatyki",
-            campus = "WSB Merito Poznań",
+            campus = "WSB Merito Gdańsk",
             avatarUrl = null,
             initials = "A"
         )
