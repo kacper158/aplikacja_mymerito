@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ============================================================ -->
+    <!-- DROP SHADOW / GLOW LAYER UNDER LOGO MARK                     -->
+    <!-- ============================================================ -->
+    <path
+        android:pathData="M30,34 L54,24 L78,34 L54,44 Z"
+        android:strokeWidth="4"
+        android:strokeColor="#3000E5FF"
+        android:fillColor="#00000000" />
+
+    <!-- ============================================================ -->
+    <!-- LETTER 'M' ICON BASE & STALKS                                -->
+    <!-- ============================================================ -->
+
+    <!-- Left Pillar of 'M' -->
+    <path android:pathData="M26,48 C26,46.8 26.8,46 28,46 L35,46 L35,80 C35,81.2 34.2,82 33,82 L28,82 C26.8,82 26,81.2 26,80 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="26" android:startY="46" android:endX="35" android:endY="82" android:type="linear">
+                <item android:offset="0.0" android:color="#FF00F0FF" />
+                <item android:offset="0.5" android:color="#FF00B4D8" />
+                <item android:offset="1.0" android:color="#FF005F73" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Pillar of 'M' -->
+    <path android:pathData="M73,46 L80,46 C81.2,46 82,46.8 82,48 L82,80 C82,81.2 81.2,82 80,82 L75,82 C73.8,82 73,81.2 73,80 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="73" android:startY="46" android:endX="82" android:endY="82" android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5FF" />
+                <item android:offset="0.5" android:color="#FF0096C7" />
+                <item android:offset="1.0" android:color="#FF0A4B75" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left Inner Diagonal of 'M' -->
+    <path android:pathData="M35,46 L54,67 L54,76 L35,55 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="35" android:startY="46" android:endX="54" android:endY="76" android:type="linear">
+                <item android:offset="0.0" android:color="#FF38BDF8" />
+                <item android:offset="1.0" android:color="#FF0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Inner Diagonal of 'M' -->
+    <path android:pathData="M73,46 L54,67 L54,76 L73,55 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="73" android:startY="46" android:endX="54" android:endY="76" android:type="linear">
+                <item android:offset="0.0" android:color="#FF0EA5E9" />
+                <item android:offset="1.0" android:color="#FF0369A1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Fold Highlight Line on 'M' -->
+    <path
+        android:pathData="M54,67 L54,76"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FF00F0FF" />
+
+    <!-- GOLD CHEVRON CREST / ACCENT EMBLEM AT BOTTOM OF 'M' -->
+    <path android:pathData="M35,55 L54,76 L73,55 L54,84 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="54" android:startY="55" android:endX="54" android:endY="84" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFE066" />
+                <item android:offset="0.5" android:color="#FFFFD700" />
+                <item android:offset="1.0" android:color="#FFD97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Shadow/Detail on Gold Crest -->
+    <path android:pathData="M54,76 L73,55 L54,84 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="54" android:startY="55" android:endX="73" android:endY="84" android:type="linear">
+                <item android:offset="0.0" android:color="#25000000" />
+                <item android:offset="1.0" android:color="#50000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Gold Stems Caps / Trim along bottom -->
+    <path android:pathData="M26,79 L35,79 L35,82 C35,82 26,82 26,82 Z" android:fillColor="#FFFFD700" />
+    <path android:pathData="M73,79 L82,79 L82,82 C82,82 73,82 73,82 Z" android:fillColor="#FFFFD700" />
+
+
+    <!-- ============================================================ -->
+    <!-- SLEEK MODERN GRADUATION CAP (MORTARBOARD & TASSEL)          -->
+    <!-- ============================================================ -->
+
+    <!-- Cap Skullcap / Under Base -->
+    <path android:pathData="M41,36 C41,45 67,45 67,36 L64,46 C58,49.5 50,49.5 44,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="41" android:startY="36" android:endX="67" android:endY="48" android:type="linear">
+                <item android:offset="0.0" android:color="#FF00A8CC" />
+                <item android:offset="1.0" android:color="#FF0A2540" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Skullcap Golden Rim Trim -->
+    <path
+        android:pathData="M44,46 C50,49.5 58,49.5 64,46"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFD700"
+        android:strokeLineCap="round" />
+
+    <!-- Mortarboard Top - Left Diamond Facet -->
+    <path android:pathData="M54,20 L28,31 L54,41 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="28" android:startY="20" android:endX="54" android:endY="41" android:type="linear">
+                <item android:offset="0.0" android:color="#FF00F0FF" />
+                <item android:offset="0.6" android:color="#FF00B4D8" />
+                <item android:offset="1.0" android:color="#FF0077B6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Mortarboard Top - Right Diamond Facet -->
+    <path android:pathData="M54,20 L80,31 L54,41 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="80" android:startY="20" android:endX="54" android:endY="41" android:type="linear">
+                <item android:offset="0.0" android:color="#FF00C4EE" />
+                <item android:offset="0.6" android:color="#FF0096C7" />
+                <item android:offset="1.0" android:color="#FF023E8A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Mortarboard Outer Edge Gold Rim -->
+    <path
+        android:pathData="M54,20 L80,31 L54,41 L28,31 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFD700"
+        android:fillColor="#00000000" />
+
+    <!-- Center Facet Highlight Beam -->
+    <path
+        android:pathData="M54,20 L54,41"
+        android:strokeWidth="1"
+        android:strokeColor="#80FFFFFF" />
+
+    <!-- ============================================================ -->
+    <!-- GOLDEN TASSEL & BUTTON                                       -->
+    <!-- ============================================================ -->
+
+    <!-- Center Button Base (Gold) -->
+    <path android:pathData="M54,30.5 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="51.5" android:startY="28" android:endX="56.5" android:endY="33" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFF066" />
+                <item android:offset="1.0" android:color="#FFFFD700" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Tassel String (Gold Curved Ribbon) -->
+    <path
+        android:pathData="M54,30.5 C63,31.5 73,34.5 75,42"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFD700"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Tassel Ring Band -->
+    <path android:pathData="M73.5,42 L76.5,42 L76.5,44 L73.5,44 Z" android:fillColor="#FFF59E0B" />
+
+    <!-- Tassel Fringe Brush (Gold Gradient) -->
+    <path android:pathData="M73,44 L77,44 L78.5,53 L71.5,53 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="75" android:startY="44" android:endX="75" android:endY="53" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFD700" />
+                <item android:offset="0.7" android:color="#FFF59E0B" />
+                <item android:offset="1.0" android:color="#FFD97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+
+    <!-- ============================================================ -->
+    <!-- PRESTIGE SPARKLE / ACADEMIC EXCELLENCE STAR ACCENTS          -->
+    <!-- ============================================================ -->
+
+    <!-- Main Golden 4-Point Star (Top Right) -->
+    <path android:pathData="M81,19 C81,22 82,23 85,23 C82,23 81,24 81,27 C81,24 80,23 77,23 C80,23 81,22 81,19 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="77" android:startY="19" android:endX="85" android:endY="27" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFF066" />
+                <item android:offset="0.5" android:color="#FFFFD700" />
+                <item android:offset="1.0" android:color="#FFF59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Small Cyan Sparkle (Top Left) -->
+    <path android:pathData="M24,25 C24,27 25,28 27,28 C25,28 24,29 24,31 C24,29 23,28 21,28 C23,28 24,27 24,25 Z"
+        android:fillColor="#FF00F0FF" />
+
+</vector>
